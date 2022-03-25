@@ -1,0 +1,12 @@
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid("62560D0C-C276-45cd-B60C-2922BE90031B"),
+	version(1.0)
+]
+
+interface HelloWorld
+{
+	void Hello([in,string]const char *psz);
+	void ShutDown(void);
+}
